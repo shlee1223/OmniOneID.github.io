@@ -54,7 +54,7 @@ OmniOneID.github.io
 GitHub Pages에 대한 기술 가이드는 [GitHub Pages](https://docs.github.com/en/pages)를 참조하십시요. <br>
 
 ## docsify.js 기술 가이드
-본 프로젝트는 docsify.js 오픈소스를 근간으로 개발되었습니다. 해당 오픈소스를 통해 Markdown 문서 파일에 대한 HTML 렌더링 서비스를 제공합니다. <br>
+본 프로젝트는 docsify.js 오픈소스를 기반으로 개발되었습니다. 해당 오픈소스를 통해 Markdown 문서 파일에 대한 HTML 렌더링 서비스를 제공합니다. <br>
 docsify.js에 대한 기술 가이드는 [docsify.js](https://docsify.js.org/)를 참조하십시요. <br>
 
 ## 홈페이지 관리 기술 가이드
