@@ -58,7 +58,6 @@ GitHub Pages에 대한 기술 가이드는 [GitHub Pages](https://docs.github.co
 docsify.js에 대한 기술 가이드는 [docsify.js](https://docsify.js.org/)를 참조하십시요. <br>
 
 ## 홈페이지 관리 기술 가이드
-- 본 프로젝트는 index.html 하나에서 관리됩니다. <br>
 - 홈페이지 내부에서 출력되는 좌측의 사이드바는 sidebar.md 파일을 기준으로 관리됩니다. <br>
 - 사이드바는 언어별 그리고 버전별로 관리되며, [sidebar branch](https://github.com/OmniOneID/did-doc-architecture/tree/sidebar/)에서 관리됩니다. <br>
 - 버전이 올라갈 때마다 메인테이너는 신규 버전에 맞는 문서 목차를 검토한 후, 해당 버전에 맞는 sidebar.md를 생성합니다. <br>
