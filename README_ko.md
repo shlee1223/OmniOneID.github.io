@@ -62,7 +62,7 @@ docsify.js에 대한 기술 가이드는 [docsify.js](https://docsify.js.org/)�
 - 버전이 업그레이드 될때마다 메인테이너는 신규 버전에 맞는 문서 목차를 검토한 후, 해당 버전에 맞는 sidebar.md를 생성합니다. <br>
 - 이후 sidebar branch에 해당 버전의 폴더를 생성하고 언어별로 별도의 sidebar.md를 각각 생성합니다. <br>
 - sidebar.md를 보다 쉽게 생성하기 위해서는 [docsify-cli](https://github.com/docsifyjs/docsify-cli)를 활용할 수 있습니다. <br>
-- 우측 상단의 네비게이션바 또한 navbar.md 기준으로 관리되며 [sidebar branch](https://github.com/OmniOneID/did-doc-architecture/tree/sidebar/)에 위치합니다. <br>
+- 우측 상단의 네비게이션바 또한 navbar.md 기준으로 관리되며 sidebar branch에 위치합니다. <br>
 - 새로운 버전의 사이드바가 추가되는 경우 index.html 내부에 alias 설정 추가가 필요합니다. 아래 소스 코드 부분에 추가해주세요.
  
 ```java
