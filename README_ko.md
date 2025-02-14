@@ -60,11 +60,11 @@ docsify.js에 대한 기술 가이드는 [docsify.js](https://docsify.js.org/)�
 ## 홈페이지 관리 기술 가이드
 - 홈페이지 내부에서 출력되는 좌측의 사이드바는 sidebar.md 파일을 기준으로 관리됩니다. <br>
 - 사이드바는 언어별 그리고 버전별로 관리되며, [sidebar branch](https://github.com/OmniOneID/did-doc-architecture/tree/sidebar/)에서 관리됩니다. <br>
-- 버전이 올라갈 때마다 메인테이너는 신규 버전에 맞는 문서 목차를 검토한 후, 해당 버전에 맞는 sidebar.md를 생성합니다. <br>
-- 이후 sidebar branch에 해당 버전의 폴더를 생성하고 언어별로 별도의 sidebar.md를 생성합니다. <br>
+- 버전이 업그레이드 될때마다 메인테이너는 신규 버전에 맞는 문서 목차를 검토한 후, 해당 버전에 맞는 sidebar.md를 생성합니다. <br>
+- 이후 sidebar branch에 해당 버전의 폴더를 생성하고 언어별로 별도의 sidebar.md를 각각 생성합니다. <br>
 - sidebar.md를 보다 쉽게 생성하기 위해서는 [docsify-cli](https://github.com/docsifyjs/docsify-cli)를 활용할 수 있습니다. <br>
-- 우측 상단의 네비게이션바 또한 navbar.md 기준으로 관리되며 [sidebar branch](https://github.com/OmniOneID/did-doc-architecture/tree/sidebar/)에 존재합니다. <br>
-- 새로운 버전의 사이드바가 추가되면 index.html 내부의 alias 설정 추가가 필요합니다. 아래 소스 코드 부분에 추가해주세요.
+- 우측 상단의 네비게이션바 또한 navbar.md 기준으로 관리되며 [sidebar branch](https://github.com/OmniOneID/did-doc-architecture/tree/sidebar/)에 위치합니다. <br>
+- 새로운 버전의 사이드바가 추가되는 경우 index.html 내부에 alias 설정 추가가 필요합니다. 아래 소스 코드 부분에 추가해주세요.
  
 ```java
 alias: { // custom setting
@@ -72,6 +72,8 @@ alias: { // custom setting
   '/V1.1.0/(.*)': getRawGithubUserContentURL() + '/refs/heads/V1.1.0/$1'
 },
 ```
+
+- 이외 홈페이지 관리를 위한 추가적인 특이사항은 본 문서에 지속적으로 업데이트할 예정입니다.
 
 ## 기여
 기여 절차와 행동 강령에 대한 자세한 내용은 [CONTRIBUTING.md](CONTRIBUTING.md)와 [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)를 참조해 주십시오.
